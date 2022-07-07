@@ -2,7 +2,7 @@ name: pr request reviewer reminder
 on:
   schedule:
     # Check reviews every weekday at 1500 hrs
-    - cron: '26 22 * * 1-5'
+    - cron: '29 22 * * 1-5'
 
 jobs:
   pull-request-reviewer-reminder:
